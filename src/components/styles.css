@@ -1,0 +1,34 @@
+/* src/components/styles.css */
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('your-background-image-url.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    color: white;
+}
+
+.landing-page h1 {
+    font-size: 3rem;
+}
+
+.landing-page p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.landing-page button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.landing-page button:hover {
+    background-color: #45a049; /* Darker green */
+}

@@ -1,0 +1,38 @@
+.landing-section {
+  text-align: center;
+  padding: 50px;
+  background: url('/path_to_background_image') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.mission-statement {
+  margin: 30px auto;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.product-list {
+  padding: 30px;
+  text-align: center;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product {
+  text-align: center;
+  margin: 20px;
+  max-width: 200px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
